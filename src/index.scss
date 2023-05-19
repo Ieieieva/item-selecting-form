@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --vt-c-base: rgb(230, 230, 230);
+  --vt-c-secondary-base: rgb(195, 194, 194);
+  --vt-c-content: rgb(76, 75, 75);
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: var(--vt-c-base);
+  font-family: "Inter", sans-serif;
+  color: var(--vt-c-content);
+}
